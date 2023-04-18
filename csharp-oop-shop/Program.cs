@@ -23,3 +23,24 @@ primoProdotto.StampaProdottiConIva();
 Console.WriteLine(" ");
 primoProdotto.StampaProdottiConcatenati();
 Console.WriteLine();
+
+Prodotto SecondoProdotto = new Prodotto("Tastiera", "Tastiera RGB Logitech", 59.99, 22);
+
+Console.WriteLine("- - PRODOTTO N.2 - -");
+Console.WriteLine();
+SecondoProdotto.StampaProdottiSenzaIva();
+Console.WriteLine(" ");
+SecondoProdotto.StampaProdottiConIva();
+Console.WriteLine(" ");
+SecondoProdotto.StampaProdottiConcatenati();
+Console.WriteLine();
+
+Prodotto TerzoProdotto = new Prodotto("Delice", "Merendine Kinder", 3.29, 10);
+
+Console.WriteLine("- - PRODOTTO N.3 - -");
+Console.WriteLine();
+TerzoProdotto.StampaProdottiSenzaIva();
+Console.WriteLine(" ");
+TerzoProdotto.StampaProdottiConIva();
+Console.WriteLine(" ");
+TerzoProdotto.StampaProdottiConcatenati();
